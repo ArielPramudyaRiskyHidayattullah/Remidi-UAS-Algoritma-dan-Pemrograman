@@ -1,4 +1,5 @@
 Harvest 1,2, dan 3 memiliki python code yang sama tetapi memiliki library yang berbeda
+
 HARVEST 1
 PYTHON CODE
 
@@ -30,7 +31,7 @@ move()
 turn_right()
 harvest_one_row()
 
-LIBRARY HARVEST !
+LIBRARY HARVEST 1
 
 def harvest_one_row():
     i = 0
