@@ -1,0 +1,80 @@
+Harvest 1,2, dan 3 memiliki python code yang sama tetapi memiliki library yang berbeda
+HARVEST 1
+PYTHON CODE
+
+from library import harvest_one_row, turn_right
+
+move()
+move()
+turn_left()
+move()
+harvest_one_row()
+turn_right()
+move()
+turn_right()
+harvest_one_row()
+turn_left()
+move()
+turn_left()
+harvest_one_row()
+turn_right()
+move()
+turn_right()
+harvest_one_row()
+turn_left()
+move()
+turn_left()
+harvest_one_row()
+turn_right()
+move()
+turn_right()
+harvest_one_row()
+
+LIBRARY HARVEST !
+
+def harvest_one_row():
+    i = 0
+    while i < 6:
+        move()
+        take()
+        i += 1
+    move()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+LIBRARY HARVEST 2
+
+def harvest_one_row():
+    i = 0
+    while i < 6:
+        move()
+        if object_here():
+            while object_here():
+                take()
+        i += 1
+    move()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+LIBRARY HARVEST 3
+
+def harvest_one_row():
+    i = 0
+    while i < 6:
+        move()
+        if object_here():
+            while object_here():
+                take()
+            put()
+        else:
+            put()
+        i += 1
+    move()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
